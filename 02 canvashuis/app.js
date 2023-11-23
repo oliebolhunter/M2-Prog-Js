@@ -6,7 +6,10 @@ class App
         //code gaat hier
         let canvas= document.getElementById("canvasId")
         let g= canvas.getContext("2d");
-        g.fillRect(50,0,5,20);
+        g.fillStyle = "orange";
+        g.fillRect(0,0,canvas.width,canvas.height);
+        g.fillStyle = "purple";
+        g.fillRect(0,0,10,10);  
         console.log(canvas);
     }
 }
